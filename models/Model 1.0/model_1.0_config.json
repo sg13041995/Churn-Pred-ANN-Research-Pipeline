@@ -1,0 +1,23 @@
+{
+  "model_number": "1.0",
+  "nodes_activations": {
+    "layer": [
+      [16, "relu"],
+      [16, "relu"],
+      [16, "relu"],
+      [1, "sigmoid"]
+    ]
+  },
+  "optimizer": {
+    "learning_rate": 0.001,
+    "optimizer": "Adam"
+  },
+  "loss": "binary_crossentropy",
+  "metrics": ["accuracy"],
+  "batch_size": 32,
+  "epochs": 100,
+  "validation_split": 0.2,
+  "early_stopping_params": null,
+  "total training time": 96.0102,
+  "update details": "\n- Initial run\n"
+}
